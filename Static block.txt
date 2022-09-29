@@ -1,0 +1,27 @@
+Method Area->1.In this all the required file which are use full for the class runing the application.
+             2.In this all the satic member is loading inside this type of the memory area.
+Heap Area-> 1.In this all the non static member is place inside this.
+Program Stack->1. In side this type of memory area all the local variable is stored.
+
+Static Memeber flow using the JVM Architecture
+=====================================
+-> It contains the four types of the static members
+A) Static main method
+B)Static Block
+C)Static Method
+D)Static Variable
+
+
+A) Main method
+   =========
+
+B) Static Block
+    =========
+1. It has no identity but it contains the basic information about the program.
+2.It communicate with the main method
+3.it is optional to declare the static block
+4.It is always exceuted before the main method
+5.we can not invoke the static block 
+6.JVM invoked the static block at the time of class loading
+
+B) 
